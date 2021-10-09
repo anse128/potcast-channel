@@ -1,0 +1,175 @@
+footer {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding-top: 35px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-Path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+footer section.novedades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades h2{
+    position: relative;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    margin: 200px 0px 36px;
+}
+
+.novedades button{
+    height: 56px;
+    width: 345px;
+    background-color: #00F3BB;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    margin: 0px 0px 160px;
+}
+
+.novedades button:hover {
+    background-image: linear-gradient(50deg, #00F3BB 0%, #0000A3 100%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0 100px;
+    height: 95px;
+}
+
+
+
+.datos .footer-iconos{
+    display: flex;
+}
+
+.footer-iconos a {
+    margin-left: 36px;
+}
+
+.footer-iconos a svg{
+    height: 17px;
+    width: 17px;
+}
+
+svg:hover {
+    fill: #00F3BB;
+}
+
+
+
+@media screen and (max-width: 999px) {
+
+    .novedades h2{
+        margin: 130px 0px 36px;
+    }
+
+    .novedades button{
+        margin: 0px 0px 90px;
+    }
+
+    .datos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        padding: 0 16px;
+        height: 95px;
+    }
+    
+
+}
+
+@media screen and (max-width: 750px) {
+    footer {
+        top: 0px;
+        clip-Path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    
+    footer section.novedades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 0px 0px;
+    }
+    
+    .novedades h2{
+        font-size: 36px;
+        text-align: center;
+        padding: 70px 16px 0px;
+        margin: 0px;
+    }
+    
+    .novedades button{
+        height: 56px;
+        padding: 0px 0px;
+        width: 516px; 
+        font-size: 18px;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 24px;
+        border: none;
+        margin: 36px 0px 90px;
+    }
+    
+    
+    .datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        padding: 0 100px;
+        height: 121px;
+        padding:24px 0px 31px;
+    }
+    
+
+    .datos .footer-iconos{
+        display: flex;
+        width: 320px;
+        justify-content: space-around;
+    }
+    
+    .footer-iconos a {
+        margin-left: 0px;
+    }
+    
+    .footer-iconos a svg{
+        height: 17px;
+        width: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 548px) {
+    footer section.novedades{
+        margin: 0px 16px;
+    }
+    .novedades button{
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 355px) {
+
+    .datos .footer-iconos{
+        width: 100%; 
+    }
+    
+}

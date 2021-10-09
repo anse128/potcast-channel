@@ -1,0 +1,415 @@
+.diagonal {
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-Path: polygon(0% 13%, 100% 0%, 100% 87%, 0% 100%);
+    height: 950px;
+}
+
+section div.diagonal h2 {
+    position: relative;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    padding: 186px 200px 26px;
+}
+
+
+.potcasts {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+iframe {
+    width: 50%;
+    height:232px;
+    border: none;
+    padding-right: 70px;
+    margin-bottom: 70px;
+}
+
+
+#nosotros {
+    position: relative; 
+    top: 870px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#telefono {
+    max-width:457.6px; 
+}
+
+.venimos {
+    display: flex;
+    height: auto;
+    max-width:  464px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 62.4px;
+}
+
+.venimos h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 400px;
+    color: #060A24;
+    margin-bottom: 24px;
+}
+
+.venimos p {
+    font-family: "IBM Plex Sans", monospace;
+    font-size: 16px;
+    line-height: 24px;
+    color: #060A24;
+    padding-bottom: 12px;
+}
+
+#invitados {
+    position: relative;
+    top: 938px;
+}
+
+#invitados h2 {
+    font-family: "IBM Plex Sans", monospace;
+    font-size: 48px;
+    line-height: 62px;
+    color: #060A24;
+    padding-bottom: 36px;
+    padding-left: 200px;
+    font-weight: 400;
+}
+
+.contenedor {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#invitados div img{
+    max-width:33.33%; 
+}
+
+#temas {
+    padding: 1000px 200px 0px;
+}
+
+#temas h2 {
+    font-family: "IBM Plex Sans", monospace;
+    font-size: 48px;
+    line-height: 62px;
+    color: #060A24;
+    letter-spacing: 0;  
+    font-weight: 400;
+    margin-bottom: 56px;
+    
+}
+
+
+#temas div.contenedor-temas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#temas div.contenedor-temas article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+#temas div.contenedor-temas article img {
+    width: 104px;
+    margin-bottom: 20px;
+}
+
+#temas div.contenedor-temas article h4 {
+    font-family: "IBM Plex Sans", monospace;
+    font-size: 24px;
+    color: #060A24;
+    font-weight: 600;
+    text-align: center;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+
+    section div.diagonal h2 {
+        padding-left: 100px;
+    }
+
+    #invitados h2 {
+        padding-left: 100px;
+    }
+
+    #temas {
+        padding: 1000px 100px 0px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+
+    section div.diagonal h2 {
+        padding: 186px 16px 26px;
+    }
+
+    .potcasts {
+        padding-left: 11px;
+        padding-right: 0px;
+    }
+    
+    iframe {
+        padding-right: 11px;
+        margin-bottom: 11px;
+    }
+
+    #nosotros {
+        top: 800px;
+    }
+    
+    #telefono {
+        max-width: 350px; 
+    }
+    
+    .venimos {
+        max-width:  464px;
+        margin-left: 0px;
+        margin-right: 16px;
+    }
+
+    #invitados {
+        top: 838px;
+    }
+
+    #temas {
+        padding: 900px 16px 0px;
+    }
+
+}
+
+@media screen and (max-width: 899px) {
+
+    #invitados h2 {
+        padding-left: 16px;
+    }
+
+    #nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px 16px;
+    }
+
+    #nosotros .venimos{
+        max-width: 100%;
+    }
+
+    #invitados div img{
+        max-width:50%; 
+    }
+
+    #temas div.contenedor-temas article {
+        width: 50%;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .diagonal {
+        position: absolute;
+        top: 300px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        clip-Path: polygon(0% 6%, 100% 0%, 100% 94%, 0% 100%);
+        height: 800px;
+        padding: 0px;
+    }
+    
+    section div.diagonal h2 {
+        position: relative;
+        font-size: 36px;
+        padding: 100px 0px 21px 16px;
+    }
+    #nosotros {
+        position: relative;
+        top: 700px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+    #telefono {
+        max-width:300px; 
+    }
+
+    .venimos {
+        display: block;
+        height: auto;
+        width:  100%;
+        margin: 0px;
+        padding: 0 16px;
+    }
+    
+    .venimos h2 {
+        font-family: "IBM Plex Sans", monospace;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin-bottom: 8px;
+        margin-top: 27px;
+    }
+    
+    .venimos p {
+        font-family: "IBM Plex Sans", monospace;
+        font-size: 14px;
+        line-height: 24px;
+        color: #060A24;
+        padding-bottom: 12px;
+    }
+    
+
+    
+    #invitados h2 {
+        font-size: 36px;
+        line-height: 42px;
+        padding: 14px 16px 24px;
+        font-weight: 400;
+
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .diagonal {
+        top: 300px;
+        clip-Path: polygon(0% 4%, 100% 0%, 100% 96%, 0% 100%);
+        height: 1280px;
+    }
+    
+    section div.diagonal h2 {
+        font-size: 36px;
+        padding: 80px 0px 21px 16px;
+    }
+    
+
+    
+    iframe {
+        width: 100%;
+    }
+    
+    
+    #nosotros {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        position: relative; 
+        top: 1150px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+    #telefono {
+        max-width:360px; 
+    }
+    
+    .venimos {
+        display: block;
+        height: auto;
+        width:  100%;
+        margin: 0px;
+        padding: 0 16px;
+    }
+    
+    .venimos h2 {
+        font-family: "IBM Plex Sans", monospace;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin-bottom: 8px;
+        margin-top: 27px;
+    }
+    
+    .venimos p {
+        font-family: "IBM Plex Sans", monospace;
+        font-size: 14px;
+        line-height: 24px;
+        color: #060A24;
+        padding-bottom: 12px;
+    }
+
+    .contenedor {
+        display:flex;
+        flex-direction: column;
+    }
+    #invitados {
+        top: 1280px;
+    }
+
+    #invitados div img{
+        max-width:100%; 
+    }
+
+    #temas {
+        padding-top: 1320px;
+    }
+
+    #temas h2 {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 400;
+        margin-bottom: 56px;
+        margin: 0px 16px 24px;
+    }
+
+
+    
+    #temas div.contenedor-temas article {
+        width: 100%;
+    }
+    
+    
+    #temas div article img {
+        width: 104px;
+        margin: 0px;
+    }
+
+    #temas div article h4 {
+        width: 300px;
+        padding:0px;
+        margin: 0px;
+    }
+
+}
+
+@media screen and (max-width: 436px) {
+    .diagonal {
+        top: 350px;
+    }
+
+    #nosotros {
+        top: 1200px;
+    }
+}
+
+@media screen and (max-width: 287px) {
+    .diagonal {
+        top: 380px;
+    }
+}
+
+@media screen and (max-width: 247px) {
+    .diagonal {
+        top: 420px;
+    }
+}
